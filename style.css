@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding-top: 670px;
+    text-align: center; 
+}
+
+.profile {
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: azure;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: cornflowerblue;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.p-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+#bio {
+    font-family: serif;
+    background-color: aliceblue; 
+}
+
+.line {
+    height: 5px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+.menu {
+    list-style:none;
+    font-family:serif;
+    position:fixed;
+    top:0px;
+    margin-top:0px; 
+    z-index: 10;
+    cursor: pointer;
+    background:azure;
+    width:100%;
+}
+
+.links {
+    color: aqua;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family:serif;
+    font-size: 20px;
+    font-weight: 600;
+    display:inline;
+}
+
+.links:hover {
+    background-color:blanchedalmond;
+    font-size: 24px;
+    text-decoration:underline; 
+}
+a{
+    text-decoration:none;
+}
+.article:hover{
+    color:darkviolet; 
+}
+html{
+    scroll-behavior:smooth;
+}
+#writings a{
+    text-shadow:none;
+    text-decoration:underline;
+    color:blue;
+}
+#contacts{
+    background-color:aquamarine;
+}
+.contact1 a{
+    color:crimson;
+    text-shadow:none; 
+}
+.contact1 h3{
+    display:inline; 
+}
+#writings{
+    background-color:floralwhite;
+    padding:10px; 
+}
+#videos{
+    background-color:antiquewhite;
+    padding:10px; 
+}
+#work{
+    background-color:lightgoldenrodyellow;
+    padding:10px; 
+}
+#bio p{
+    padding-bottom:5px; 
+}
